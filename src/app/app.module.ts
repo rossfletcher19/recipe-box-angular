@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { RecipeboxHomeComponent } from './recipebox-home/recipebox-home.component';
+import { routing } from './app.routing';
 
 
 @NgModule({
@@ -12,7 +13,9 @@ import { RecipeboxHomeComponent } from './recipebox-home/recipebox-home.componen
     RecipeboxHomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
+
   ],
   providers: [],
   bootstrap: [AppComponent]
