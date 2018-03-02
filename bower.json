@@ -1,0 +1,20 @@
+{
+  "name": "recipebox-angular",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ross Fletcher <rtbfletch@outlook.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}

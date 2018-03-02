@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { RecipeboxHomeComponent } from './recipebox-home/recipebox-home.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RecipeboxHomeComponent
   ],
   imports: [
     BrowserModule
