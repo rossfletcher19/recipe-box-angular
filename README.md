@@ -1,6 +1,25 @@
-# RecipeboxAngular
+# Angular Extended
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+
+## Reflection
+
+Really enjoying Angular and JavaScript. I just want to get another build going and further study the flow and structure of Angular and how it works with JavaScript, as well as further study JavaScript. I am going to attempt to make a recipe app that can track, store and display recipes.
+
+## Specs
+
+| Behavior  | Input  | Output  |
+|---|---|---|
+| A user can see a list of recipe sections |   |   |
+| A user can add a recipe to a recipe section  |   |   |
+| A user can edit a recipe   |   |   |
+| A admin can edit and delete recipes  |   |   |
+| Will have testing of functions and/or features  |   |   |
+| test  |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
 
 ## Development server
 
