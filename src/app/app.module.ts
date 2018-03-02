@@ -8,6 +8,7 @@ import { routing } from './app.routing';
 import { AboutComponent } from './about/about.component';
 import { EastcoastRecipeboxComponent } from './eastcoast-recipebox/eastcoast-recipebox.component';
 import { RecipeDetailComponent } from './recipe-detail/recipe-detail.component';
+import { CoastPipe } from './coast.pipe';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { RecipeDetailComponent } from './recipe-detail/recipe-detail.component';
     RecipeboxHomeComponent,
     AboutComponent,
     EastcoastRecipeboxComponent,
-    RecipeDetailComponent
+    RecipeDetailComponent,
+    CoastPipe
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
 <h2>eastcoast</h2>
-<div class="" *ngFor="let recipe of recipes">
+
+<div *ngFor="let recipe of recipes">
   <div class="card">
     <div class="card-block">
     <h3 (click)="goToDetailPage(recipe)"><em>{{recipe.recipeTitle}}</em></h3>

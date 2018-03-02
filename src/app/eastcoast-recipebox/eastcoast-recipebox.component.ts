@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Recipe } from '../recipe.model';
 import { Router } from '@angular/router';
 
@@ -8,8 +8,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./eastcoast-recipebox.component.css']
 })
 export class EastcoastRecipeboxComponent implements OnInit {
+  @Input() childReciept: Recipe[];
 
-  constructor(private router: Router) { }
+
+  constructor(private router: Router) {
+
+  }
 
 // new Recipe("recipeTitle", "course", "coast", "description", [ing], [di], "date", id)
   recipes: Recipe[] = [
