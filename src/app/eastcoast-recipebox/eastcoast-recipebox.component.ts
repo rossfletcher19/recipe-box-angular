@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Recipe } from '../recipe.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-eastcoast-recipebox',
@@ -8,7 +9,7 @@ import { Recipe } from '../recipe.model';
 })
 export class EastcoastRecipeboxComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
 // new Recipe("recipeTitle", "course", "coast", "description", [ing], [di], "date", id)
   recipes: Recipe[] = [
@@ -19,5 +20,10 @@ export class EastcoastRecipeboxComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  goToDetailPage(clickedRecipe: Recipe) {
+     this.router.navigate(['recipes', clickedRecipe.recipeId]);
+   };
+
 
 }

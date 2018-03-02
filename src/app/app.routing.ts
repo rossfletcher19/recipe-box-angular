@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { RecipeboxHomeComponent } from './recipebox-home/recipebox-home.component';
 import { AboutComponent } from './about/about.component';
 import { EastcoastRecipeboxComponent } from './eastcoast-recipebox/eastcoast-recipebox.component';
+import { RecipeDetailComponent } from './recipe-detail/recipe-detail.component';
 
 const appRoutes: Routes = [
 {
@@ -16,6 +17,10 @@ const appRoutes: Routes = [
 {
   path: 'eastcoast-recipebox',
   component: EastcoastRecipeboxComponent
+},
+{
+  path: 'recipes/:id',
+  component: RecipeDetailComponent
 }
 ];
 

@@ -1,11 +1,13 @@
 <h2>eastcoast</h2>
-
-<div *ngFor="let recipe of recipes">
-    <h3><em>{{recipe.recipeTitle}}</em></h3>
+<div class="" *ngFor="let recipe of recipes">
+  <div class="card">
+    <div class="card-block">
+    <h3 (click)="goToDetailPage(recipe)"><em>{{recipe.recipeTitle}}</em></h3>
     <h6>course: {{recipe.course}}</h6>
     <h6>coast: {{recipe.coast}}</h6>
-    <h6>description: {{recipe.description}}</h6>
-    <h6>ingredients: {{recipe.ingredients}}</h6>
-    <h6>directions: {{recipe.directions}}</h6>
-
+    <h6>about: {{recipe.description}}</h6>
+    <!-- <p>ingredients: {{recipe.ingredients}}</p>
+    <p>directions: {{recipe.directions}}</p> -->
+    </div>
+  </div>
 </div>
