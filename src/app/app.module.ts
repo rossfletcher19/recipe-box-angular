@@ -5,12 +5,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { RecipeboxHomeComponent } from './recipebox-home/recipebox-home.component';
 import { routing } from './app.routing';
+import { AboutComponent } from './about/about.component';
+import { EastcoastRecipeboxComponent } from './eastcoast-recipebox/eastcoast-recipebox.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    RecipeboxHomeComponent
+    RecipeboxHomeComponent,
+    AboutComponent,
+    EastcoastRecipeboxComponent
   ],
   imports: [
     BrowserModule,
