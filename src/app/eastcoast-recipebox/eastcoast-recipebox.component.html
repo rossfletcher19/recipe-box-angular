@@ -1,3 +1,11 @@
-<h2>eastcoast-recipeBox</h2>
+<h2>eastcoast</h2>
 
-<p>Fine recipes and foods will be listed here shortly!</p>
+<div *ngFor="let recipe of recipes">
+    <h3><em>{{recipe.recipeTitle}}</em></h3>
+    <h6>course: {{recipe.course}}</h6>
+    <h6>coast: {{recipe.coast}}</h6>
+    <h6>description: {{recipe.description}}</h6>
+    <h6>ingredients: {{recipe.ingredients}}</h6>
+    <h6>directions: {{recipe.directions}}</h6>
+
+</div>

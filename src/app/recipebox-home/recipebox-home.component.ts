@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 
+
 @Component({
   selector: 'app-recipebox-home',
   templateUrl: './recipebox-home.component.html',
@@ -9,6 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class RecipeboxHomeComponent implements OnInit {
 
   constructor() { }
+
+
 
   ngOnInit() {
   }
