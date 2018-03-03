@@ -10,6 +10,7 @@ Really enjoying Angular and JavaScript. I just want to get another build going a
 
 | Behavior  | Input  | Output  |
 |---|---|---|
+| A user can see a list of the recipes in a section | click eastcoast-rbx  | displayed list of recipes under eastcoast-rbx  |
 | A user can see a list of recipe sections |   |   |
 | A user can add a recipe to a recipe section  |   |   |
 | A user can edit a recipe   |   |   |
