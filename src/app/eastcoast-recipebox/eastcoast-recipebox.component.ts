@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Recipe } from '../recipe.model';
 import { Router } from '@angular/router';
 import { RecipeService } from '../recipe.service';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-eastcoast-recipebox',
@@ -10,7 +11,8 @@ import { RecipeService } from '../recipe.service';
   providers: [RecipeService]
 })
 export class EastcoastRecipeboxComponent implements OnInit {
-  recipes: Recipe[];
+  recipes: FirebaseListObservable<any[]>;
+
 
 
   constructor(private router: Router, private recipeService: RecipeService) {

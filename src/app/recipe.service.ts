@@ -1,14 +1,18 @@
 import { Injectable } from '@angular/core';
 import { Recipe } from './recipe.model';
 import { RECIPES } from './mock-recipes';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
 export class RecipeService {
+  recipes: FirebaseListObservable<any[]>;
 
-  constructor() { }
+  constructor(private database: AngularFireDatabase) {
+    this.recipes = database.list('recipes');
+  }
 
   getRecipes() {
-    return RECIPES;
+    return this.recipes;
   }
 
   getRecipeById(recipeId: number){
