@@ -16,11 +16,26 @@ Really enjoying Angular and JavaScript. I just want to get another build going a
 | A user can edit a recipe   |   |   |
 | A admin can edit and delete recipes  |   |   |
 | Will have testing of functions and/or features  |   |   |
-| test  |   |   |
 |   |   |   |
 |   |   |   |
 |   |   |   |
 |   |   |   |
+|   |   |   |
+
+## API-KEY
+
+* Sign up for a Firebase account and create a new database. Import the `sample-recipes.json` file into your newly created database.
+* Click on `Project Overview` in Firebase and then `Add Firebase to your web app`.
+* Add the given api-key to your `api-keys.ts` file in the following format:
+```
+export var masterFirebaseConfig = {
+    apiKey: "xxxx",
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+    storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx"
+  };
+```
 
 ## Development server
 
