@@ -19,13 +19,13 @@ Really enjoying Angular and JavaScript. I want to get another build going and fu
 | Behavior  | Input  | Output  |
 |---|---|---|
 | A user can see a list of the recipes in a section | click eastcoast-rbx  | displayed list of recipes under eastcoast-rbx  |
-| A user can see a list of recipe sections |   |   |
+| A user can see a list of recipe sections | view main page  | see list of east and west recipe boxes  |
 | A user can add a recipe to a recipe section  |   |   |
 | A user can edit a recipe   |   |   |
 | A admin can edit and delete recipes  |   |   |
 | Will have testing of functions and/or features  |   |   |
-|   |   |   |
-|   |   |   |
+| Filter data by coast on respective main pages  |   |   |
+| Show json array of ingredients and directions in lists on details page  |   |   |
 |   |   |   |
 |   |   |   |
 

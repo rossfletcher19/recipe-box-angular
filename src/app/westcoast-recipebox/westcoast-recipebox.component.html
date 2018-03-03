@@ -1,0 +1,12 @@
+<h2>westcoast</h2>
+
+<div *ngFor="let recipe of recipes | async" (click)="goToDetailPage(recipe)">
+  <div class="card">
+    <div class="card-block">
+    <h3 ><em>{{recipe.recipeTitle}}</em></h3>
+    <p><b><em>course:</em></b> {{recipe.course}}</p>
+    <p><b><em>coast:</em></b> {{recipe.coast}}</p>
+    <p><b><em>about:</em></b> {{recipe.description}}</p>
+    </div>
+  </div>
+</div>

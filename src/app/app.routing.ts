@@ -4,6 +4,8 @@ import { RecipeboxHomeComponent } from './recipebox-home/recipebox-home.componen
 import { AboutComponent } from './about/about.component';
 import { EastcoastRecipeboxComponent } from './eastcoast-recipebox/eastcoast-recipebox.component';
 import { RecipeDetailComponent } from './recipe-detail/recipe-detail.component';
+import { WestcoastRecipeboxComponent } from './westcoast-recipebox/westcoast-recipebox.component';
+
 
 const appRoutes: Routes = [
 {
@@ -17,6 +19,10 @@ const appRoutes: Routes = [
 {
   path: 'eastcoast-recipebox',
   component: EastcoastRecipeboxComponent
+},
+{
+  path: 'westcoast-recipebox',
+  component: WestcoastRecipeboxComponent
 },
 {
   path: 'recipes/:id',
