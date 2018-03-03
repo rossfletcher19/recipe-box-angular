@@ -4,7 +4,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Reflection
 
-Really enjoying Angular and JavaScript. I just want to get another build going and further study the flow and structure of Angular and how it works with JavaScript, as well as further study JavaScript. I am going to attempt to make a recipe app that can track, store and display recipes.
+Really enjoying Angular and JavaScript. I want to get another build going and further study the flow and structure of Angular and how it works with TypeScript and JavaScript, as well as further study TS/JS. I am going to attempt to make a recipe app that can track, store and display recipes.
+
+## Goals and Where I'd like to Improve through this Build
+
+* Strive harder to comprehend my code to create better work and become better at what I do.
+* Have this builds code be better than the lasts. Which was another similar forum that I can certainly improve on. How you say? Well last forum we used 3 models for 3 different sections of the forum. I believe I can use one recipe model and have different sections with different types of recipes, from the eastcoast and the westcoast
+* Learn how to implement users login with Firebase.
+
+
 
 ## Specs
 
