@@ -9,7 +9,7 @@ import { routing } from './app.routing';
 import { AboutComponent } from './about/about.component';
 import { EastcoastRecipeboxComponent } from './eastcoast-recipebox/eastcoast-recipebox.component';
 import { RecipeDetailComponent } from './recipe-detail/recipe-detail.component';
-import { CoastPipe } from './coast.pipe';
+// import { CoastPipe } from './coast.pipe';
 
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
@@ -29,7 +29,7 @@ export const firebaseConfig = {
     AboutComponent,
     EastcoastRecipeboxComponent,
     RecipeDetailComponent,
-    CoastPipe
+    // CoastPipe
   ],
   imports: [
     BrowserModule,
