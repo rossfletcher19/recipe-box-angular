@@ -20,11 +20,14 @@ Really enjoying Angular and JavaScript. I just want to get another build going a
 |   |   |   |
 |   |   |   |
 |   |   |   |
-|   |   |   |
+
+## Dependencies
+
+* run `npm-install` and `bower install` in root project directory
 
 ## API-KEY
 
-* Sign up for a Firebase account and create a new database. Import the `sample-recipes.json` file into your newly created database.
+* Sign up for a Firebase account and create a new database. Import the `sample-recipes.json` file in this project directory into your newly created database.
 * Click on `Project Overview` in Firebase and then `Add Firebase to your web app`.
 * Add the given api-key to your `api-keys.ts` file in the following format:
 ```
