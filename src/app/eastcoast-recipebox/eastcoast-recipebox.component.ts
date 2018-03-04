@@ -26,8 +26,8 @@ export class EastcoastRecipeboxComponent implements OnInit {
     this.recipes = this.recipeService.getRecipes();
   }
 
-  goToDetailPage(clickedRecipe: Recipe) {
-     this.router.navigate(['recipes', clickedRecipe.recipeId]);
+  goToDetailPagefromE(clickedRecipe) {
+     this.router.navigate(['recipes', clickedRecipe.$key]);
    };
 
 

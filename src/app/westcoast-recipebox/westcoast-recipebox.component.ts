@@ -19,8 +19,8 @@ export class WestcoastRecipeboxComponent implements OnInit {
     this.recipes = this.recipeService.getRecipes();
   }
 
-  goToDetailPage(clickedRecipe: Recipe) {
-     this.router.navigate(['recipes', clickedRecipe.recipeId]);
+  goToDetailPageWest(clickedRecipe) {
+     this.router.navigate(['recipes', clickedRecipe.$key]);
    };
 
 }

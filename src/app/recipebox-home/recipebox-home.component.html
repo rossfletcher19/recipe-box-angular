@@ -1,10 +1,13 @@
-<h2>Welcome to the RecipeBox!</h2>
+<h2>Welcome!</h2>
+<p>RecipeBox's development is driven by a love for family and the food that brings family together.
+</p>
+<br>
 <p>Lorem ipsum dolor amet tote bag asymmetrical lomo gochujang snackwave four loko flannel. Pabst pickled mixtape, fashion axe thundercats food truck franzen wolf farm-to-table stumptown chambray cronut helvetica next level. Synth brunch taxidermy gochujang affogato, yuccie iceland VHS crucifix la croix. Cliche keffiyeh vice pork belly narwhal kombucha next level waistcoat enamel pin farm-to-table schlitz gastropub sustainable vegan.
 
 Chia neutra flannel post-ironic try-hard. Subway tile man bun biodiesel photo booth, bitters tattooed taxidermy kale chips hammock copper mug DIY cornhole williamsburg poke. Ugh glossier williamsburg sriracha, four dollar toast tilde letterpress meggings. Snackwave literally williamsburg live-edge, trust fund tumeric art party pinterest hella tilde mustache taiyaki four loko. Knausgaard swag affogato schlitz.
 </p>
 <hr>
-<div *ngFor="let recipe of recipes | async" (click)="goToDetailPage(recipe)">
+<div *ngFor="let recipe of recipes | async" (click)="goToDetailPagefromHome(recipe)">
   <div class="card">
     <div class="card-block">
     <h3 ><em>{{recipe.recipeTitle}}</em></h3>

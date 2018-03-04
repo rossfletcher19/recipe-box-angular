@@ -1,10 +1,10 @@
 <div>
-  <h3>{{recipeToDisplay.recipeTitle}}</h3>
-  <p><b><em>course:</em></b> {{recipeToDisplay.course}}</p>
-  <p><b><em>coast:</em></b> {{recipeToDisplay.coast}}</p>
-  <p><b><em>about:</em></b> {{recipeToDisplay.description}}</p>
+  <h3>{{(recipeToDisplay| async)?.recipeTitle}}</h3>
+  <p><b><em>course:</em></b> {{(recipeToDisplay| async)?.course}}</p>
+  <p><b><em>coast:</em></b> {{(recipeToDisplay| async)?.coast}}</p>
+  <p><b><em>about:</em></b> {{(recipeToDisplay| async)?.description}}</p>
 
-  <p><b><em>ingredients:</em></b> {{recipeToDisplay.ingredients}}</p>
-  <p><b><em>directions:</em></b> {{recipeToDisplay.directions}}</p>
+  <p><b><em>ingredients:</em></b> {{(recipeToDisplay| async)?.ingredients}}</p>
+  <p><b><em>directions:</em></b> {{(recipeToDisplay| async)?.directions}}</p>
 
 </div>
