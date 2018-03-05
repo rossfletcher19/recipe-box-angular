@@ -1,0 +1,35 @@
+<h3>Add New Recipe!</h3>
+  <div>
+    <label>Recipe Title:</label>
+    <input #newrecipeTitle>
+  </div>
+  <div>
+    <label>Meal Course:</label>
+    <input #newCourse>
+  </div>
+  <div>
+    <label>East or West Coast:</label>
+    <input #newCoast>
+  </div>
+  <div>
+    <label>Description:</label>
+    <br>
+    <textarea #newDescription></textarea>
+  </div>
+  <div>
+    <label>Ingredients:</label>
+    <br>
+    <textarea #newIngredients></textarea>
+  </div>
+  <div>
+    <label>Directions:</label>
+    <br>
+    <textarea #newDirections></textarea>
+  </div>
+  <div>
+    <label>Date Entered:</label>
+    <br>
+    <textarea #newDate></textarea>
+  </div>
+
+<button (click)="submitForm(newrecipeTitle.value, newCourse.value, newCoast.value, newDescripton.value, newIngredients.value, newDirections.value, newDate.value); newrecipeTitle.value=''; newCourse.value=''; newCoast.value=''; newDescripton.value=''; newIngredients.value=''; newDirections.value=''; newDate.value='' ">Add</button>

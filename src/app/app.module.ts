@@ -15,6 +15,7 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { WestcoastRecipeboxComponent } from './westcoast-recipebox/westcoast-recipebox.component';
+import { AdminComponent } from './admin/admin.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -31,7 +32,8 @@ export const firebaseConfig = {
     EastcoastRecipeboxComponent,
     RecipeDetailComponent,
     WestcoastRecipeboxComponent,
-    CoastPipe
+    CoastPipe,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

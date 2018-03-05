@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { EastcoastRecipeboxComponent } from './eastcoast-recipebox/eastcoast-recipebox.component';
 import { RecipeDetailComponent } from './recipe-detail/recipe-detail.component';
 import { WestcoastRecipeboxComponent } from './westcoast-recipebox/westcoast-recipebox.component';
+import{ AdminComponent } from './admin/admin.component';
 
 
 const appRoutes: Routes = [
@@ -27,7 +28,11 @@ const appRoutes: Routes = [
 {
   path: 'recipes/:id',
   component: RecipeDetailComponent
-}
+},
+{
+    path: 'admin',
+    component: AdminComponent
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

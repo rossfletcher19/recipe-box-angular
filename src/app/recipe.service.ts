@@ -16,13 +16,12 @@ export class RecipeService {
     return this.recipes;
   }
 
+  addRecipe(newRecipe: Recipe) {
+    this.recipes.push(newRecipe);
+  }
+
   getRecipeById(id: string){
     return this.database.object('/recipes/' + id);
-    // for (var i = 0; i <= RECIPES.length - 1; i++) {
-    //   if (RECIPES[i].recipeId === recipeId) {
-    //     return RECIPES[i];
-    //   }
-    // }
   }
 
 }
