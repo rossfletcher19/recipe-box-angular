@@ -37,7 +37,7 @@ Really enjoying Angular and JavaScript. I want to get another build going and fu
 
 * Sign up for a Firebase account [@Firebase](https://firebase.google.com/) and create a new database. Import the `sample-recipes.json` file in this project directory into your newly created database.
 * Click on `Project Overview` in Firebase and then `Add Firebase to your web app`.
-* Add the given api-key to your `api-keys.ts` file in the following format:
+* Create an `api-keys.ts` file in src/app folder and add the given api-key from [@Firebase](https://firebase.google.com/) to your `api-keys.ts` file in the following format:
 ```
 export var masterFirebaseConfig = {
     apiKey: "xxxx",
