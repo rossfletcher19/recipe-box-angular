@@ -13,9 +13,7 @@ export class RecipeService {
   }
 
   getRecipes() {
-
     return this.recipes;
-
   }
 
   getRecipeById(id: string){
